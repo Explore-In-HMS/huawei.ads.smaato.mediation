@@ -1,0 +1,57 @@
+<!--
+  ~ Copyright 2021. Explore in HMS. All rights reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ ou may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<VAST version="2.0">
+    <Ad id="602833">
+        <Wrapper>
+            <AdSystem>Acudeo Compatible</AdSystem>
+            <VASTAdTagURI><![CDATA[http://nroll-test-adserver.cloudapp.net/AdServerService.svc/JSON/GetVast?bReqId=1&impId=2&campaignId=1&creativeId=1]]></VASTAdTagURI>
+            <Error>http://myErrorURL/wrapper/error</Error>
+            <Impression>http://myTrackingURL/wrapper/impression</Impression>
+            <Creatives>
+                <Creative AdID="602833">
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="creativeView">http://myTrackingURL/wrapper/creativeView</Tracking>
+                            <Tracking event="start">http://myTrackingURL/wrapper/start</Tracking>
+                            <Tracking event="midpoint">http://myTrackingURL/wrapper/midpoint</Tracking>
+                            <Tracking event="firstQuartile">http://myTrackingURL/wrapper/firstQuartile</Tracking>
+                            <Tracking event="thirdQuartile">http://myTrackingURL/wrapper/thirdQuartile</Tracking>
+                            <Tracking event="complete">http://myTrackingURL/wrapper/complete</Tracking>
+                            <Tracking event="mute">http://myTrackingURL/wrapper/mute</Tracking>
+                            <Tracking event="unmute">http://myTrackingURL/wrapper/unmute</Tracking>
+                            <Tracking event="pause">http://myTrackingURL/wrapper/pause</Tracking>
+                            <Tracking event="resume">http://myTrackingURL/wrapper/resume</Tracking>
+                            <Tracking event="fullscreen">http://myTrackingURL/wrapper/fullscreen</Tracking>
+                        </TrackingEvents>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <Linear>
+                        <VideoClicks>
+                            <ClickTracking>http://myTrackingURL/wrapper/click</ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+                <Creative AdID="602833-NonLinearTracking">
+                    <NonLinearAds>
+                        <TrackingEvents />
+                    </NonLinearAds>
+                </Creative>
+            </Creatives>
+        </Wrapper>
+    </Ad>
+</VAST>

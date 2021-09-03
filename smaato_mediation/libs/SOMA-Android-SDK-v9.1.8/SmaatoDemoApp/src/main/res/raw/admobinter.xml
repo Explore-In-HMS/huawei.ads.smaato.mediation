@@ -1,0 +1,41 @@
+<!--
+  ~ Copyright 2021. Explore in HMS. All rights reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ ou may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<mediation>
+    <sessionid>123Mopub_Interstitial</sessionid>
+    <networks>
+        <network>
+            <name>AdMob_CSM</name>
+            <priority>1</priority>
+            <id>{"adunitid": "ca-app-pub-3940256099942544/1033173712"}</id>
+            <width>400</width>
+            <height>400</height>
+            <impression>http://smaato.com</impression>
+            <clickurl>http://google.com</clickurl>
+        </network>
+        <network>
+            <name>MillennialMedia_CSM</name>
+            <priority>14</priority>
+            <id>{"adunitid": "203890"}</id>
+            <width>400</width>
+            <height>400</height>
+            <impression>http://smaato.com</impression>
+            <clickurl>http://google.com</clickurl>
+        </network>
+    </networks>
+    <passback><![CDATA[ http://soma.smaato.net/oapi/reqAd.jsp?pub=0&adspace=0&format=ALL&formatstrict=true&mediationversion=1&width=320&height=480&coppa=0&modifyRM=true&beacon=true&ownid=359283050959492&connection=wifi&osversion=5.0&devicemodel=XT1092&devicebrand=motorola&screenwidth=1080&screenheight=1776&devicetype=0&lang=en-GB&osname=android&portrait=true&mraidver=2&googleadid=26ec0bb9-087c-453e-b6f0-b2cd9c55fe83&googlednt=1&userid=ff6ba052a9a369177056ed55bd74ed5c0229bbc7&response=XML&client=sdkandroid_4-5-2&autorefresh=0&offscreen=true&appid=com.smaato.demoapp&apiver=500
+ ]]></passback>
+</mediation>

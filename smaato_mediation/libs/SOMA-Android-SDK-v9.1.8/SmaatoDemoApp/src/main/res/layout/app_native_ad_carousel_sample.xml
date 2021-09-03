@@ -1,0 +1,298 @@
+<!--
+  ~ Copyright 2021. Explore in HMS. All rights reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ ou may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical"
+    tools:context="com.smaato.demoapp.activities.AppNativeAdCarouselSample" >
+
+    <Button
+        android:id="@+id/load_ad"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/custombutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:text="Load Banner"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/load_ad"
+        android:layout_alignLeft="@+id/load_ad"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/load_ad" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/native1icon" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageView1"
+                    android:src="@drawable/native1" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageView1"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:text="Deer in the snow" />
+
+
+
+                <RatingBar
+                    android:id="@+id/ratingBarNative_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView1"
+                    android:layout_toRightOf="@id/imageView1"
+                    android:rating="4.9"
+                    android:numStars="5"
+                    style="?android:attr/ratingBarStyleSmall"
+                    />
+
+                <TextView
+                    android:id="@+id/firstContentText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView2"
+                    android:paddingLeft="5dp"
+                    android:text="It is snow time !"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/darker_gray" />
+
+
+
+            <!--  Dynamically created#######  -->
+
+            <RelativeLayout
+                android:id="@+id/nativeAdLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center" >
+
+            </RelativeLayout>
+
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/darker_gray" />
+
+         <!--   <RelativeLayout
+                android:id="@+id/nativeAdLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <ImageView
+                    android:id="@+id/nativeIconImage"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/abc_ab_share_pack_mtrl_alpha" />
+
+                <ImageView
+                    android:id="@+id/nativeMainImage"
+                    android:layout_width="600dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/nativeIconImage"
+                    android:layout_below="@+id/nativeText"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/abc_ab_share_pack_mtrl_alpha" />
+
+                <TextView
+                    android:id="@+id/nativeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/nativeIconImage"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/nativeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/nativeTitle"
+                    android:layout_below="@+id/nativeTitle"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textSize="15sp" />
+
+                <RatingBar
+                    android:id="@+id/ratingBarNative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nativeMainImage"
+                    android:layout_toLeftOf="@+id/ctatButton" />
+
+                <Button
+                    android:id="@+id/ctatButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/nativeMainImage"
+                    android:text="Button" />
+
+            </RelativeLayout>-->
+
+
+
+
+            <!-- Dynamic code insertion starts ####-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/nativeAdLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                </RelativeLayout>
+
+            </LinearLayout>
+            <!-- Dynamic code insertion Ends ####-->
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/darker_gray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/native2icon" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="600dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageView3"
+                    android:src="@drawable/native2" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageView3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:text="Coffee Time !" />
+
+
+                <RatingBar
+                    android:id="@+id/ratingBarNative_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView5"
+                    android:layout_below="@+id/textView5"
+                    android:rating="4.9"
+                    android:numStars="5"
+                    style="?android:attr/ratingBarStyleSmall"
+                    />
+
+
+                <TextView
+                android:id="@+id/secondContentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView4"
+                android:paddingLeft="5dp"
+                android:text="I like coffee very much."
+                android:textSize="15dp" />
+
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/darker_gray" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

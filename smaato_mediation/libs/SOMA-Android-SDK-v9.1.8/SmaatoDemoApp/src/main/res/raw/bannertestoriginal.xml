@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  ~ Copyright 2021. Explore in HMS. All rights reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ ou may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<VAST version="2.0">
+    <Ad id="398852">
+        <Wrapper>
+            <AdSystem>Bidstalk</AdSystem>
+            <VASTAdTagURI>
+                <![CDATA[http://smaato.dca.events.bidstalk.com/creative?raw=crYEL%2FAZfUP3imHnvJSmI1e%2FAzt%2BT6jfOBlg%2BP3hrYiIoDcIMtyhYTNekNNaMrR8bEE3oVc52JL44iU1cR9pXT6YjFPvd3UEkkqUn32ODaldzw5G%2BHEiPvyI%2BuF1c0rDU2T8nS7l270jB0ujdvOHo5XtNLkZgLAlJ%2Fh3JPNme9hembS%2FsO9%2BEHfF6e%2FSp55FeKZ2jAVXtgvbUrcmjjy7OfhHQ2PKK%2Bz0j6TdaLy1eSKDw3xJHAA9EBWK3XNGbtfJz7OJj86u8N03UB1q6ovz1B4WOL%2B0fLlHNWnwKsi2wbeF5k%2BrZvORehfipLBRb6Z4zGugg3qBOG3zMgfsbLTk3JT0q4kLLqM33BusBnAfQoFtJsnhfF%2F9P%2FD7YyPh4SR8eTcyx1SBYHKY%2F%2B0Bj%2FteM8kcGjzAOi4USFdtwcA8QZIylCIAoMs%2FtCsRv3fRKm0dm66SVvt6Nzf%2FvhRrtfNMdUx%2BiF2oks0RxgnRji8S9LCQR636rgkMmEXOwB3EyP%2BbfRfvrRjqRTI9f5TZ4ZBwuaQ1%2FbWGfXjmt4sAgAtsCjoKJ1PY3e1L6FOG7uqdZfs1B7NxLFQ%2FibCsQ7gza9vzKbjAmy5y2Pia76He7BIzqDc%3D]]>
+            </VASTAdTagURI>
+            <Impression>
+                <![CDATA[http://smaato.dca.events.bidstalk.com/win?raw=crYEL%2FAZfUP3imHnvJSmI1e%2FAzt%2BT6jfOBlg%2BP3hrYiIoDcIMtyhYTNekNNaMrR8bEE3oVc52JL44iU1cR9pXT6YjFPvd3UEkkqUn32ODaldzw5G%2BHEiPvyI%2BuF1c0rDU2T8nS7l270jB0ujdvOHo5XtNLkZgLAlJ%2Fh3JPNme9hembS%2FsO9%2BEHfF6e%2FSp55FeKZ2jAVXtgvbUrcmjjy7OfhHQ2PKK%2Bz0j6TdaLy1eSKDw3xJHAA9EBWK3XNGbtfJz7OJj86u8N03UB1q6ovz1B4WOL%2B0fLlHNWnwKsi2wbeF5k%2BrZvORehfipLBRb6Z4zGugg3qBOG3zMgfsbLTk3JT0q4kLLqM33BusBnAfQoFtJsnhfF%2F9P%2FD7YyPh4SR8eTcyx1SBYHKY%2F%2B0Bj%2FteM8kcGjzAOi4USFdtwcA8QZIylCIAoMs%2FtCsRv3fRKm0dm66SVvt6Nzf%2FvhRrtfNMdUx%2BiF2oks0RxgnRji8S9LCQR636rgkMmEXOwB3EyP%2BbfRfvrRjqRTI9f5TZ4ZBwuaQ1%2FbWGfXjmt4sAgAtsCjoKJ1PY3e1L6FOG7uqdZfs1B7NxLFQ%2FibCsQ7gza9vzKbjAmy5y2Pia76He7BIzqDc%3D]]>
+            </Impression>
+            <Impression>http://54.86.57.126/oapi/getAd;jsessionid=D8C9266E55D405B659D8D50AAB2714D7.ip-10-0-32-9</Impression>
+            <Creatives>
+                <Creative id="398852">
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[http://smaato.dca.events.bidstalk.com/event?raw=crYEL%2FAZfUP3imHnvJSmI1e%2FAzt%2BT6jfOBlg%2BP3hrYiIoDcIMtyhYTNekNNaMrR8bEE3oVc52JL44iU1cR9pXT6YjFPvd3UEkkqUn32ODaldzw5G%2BHEiPvyI%2BuF1c0rDU2T8nS7l270jB0ujdvOHo5XtNLkZgLAlJ%2Fh3JPNme9hembS%2FsO9%2BEHfF6e%2FSp55FeKZ2jAVXtgvbUrcmjjy7OfhHQ2PKK%2Bz0j6TdaLy1eSKDw3xJHAA9EBWK3XNGbtfJz7OJj86u8N03UB1q6ovz1B4WOL%2B0fLlHNWnwKsi2wbeF5k%2BrZvORehfipLBRb6Z4zGugg3qBOG3zMgfsbLTk3JT0q4kLLqM33BusBnAfQoFtJsnhfF%2F9P%2FD7YyPh4SR8eTcyx1SBYHKY%2F%2B0Bj%2FteM8kcGjzAOi4USFdtwcA8QZIylCIAoMs%2FtCsRv3fRKm0dm66SVvt6Nzf%2FvhRrtfNMdUx%2BiF2oks0RxgnRji8S9LCQR636rgkMmEXOwB3EyP%2BbfRfvrRjqRTI9f5TZ4ZBwuaQ1%2FbWGfXjmt4sAgAtsCjoKJ1PY3e1L6FOG7uqdZfs1B7NxLFQ%2FibCsQ7gza9vzKbjAmy5y2Pia76He7BIzqDc%3D&et=video&p=0.187143&el=start]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[http://smaato.dca.events.bidstalk.com/event?raw=crYEL%2FAZfUP3imHnvJSmI1e%2FAzt%2BT6jfOBlg%2BP3hrYiIoDcIMtyhYTNekNNaMrR8bEE3oVc52JL44iU1cR9pXT6YjFPvd3UEkkqUn32ODaldzw5G%2BHEiPvyI%2BuF1c0rDU2T8nS7l270jB0ujdvOHo5XtNLkZgLAlJ%2Fh3JPNme9hembS%2FsO9%2BEHfF6e%2FSp55FeKZ2jAVXtgvbUrcmjjy7OfhHQ2PKK%2Bz0j6TdaLy1eSKDw3xJHAA9EBWK3XNGbtfJz7OJj86u8N03UB1q6ovz1B4WOL%2B0fLlHNWnwKsi2wbeF5k%2BrZvORehfipLBRb6Z4zGugg3qBOG3zMgfsbLTk3JT0q4kLLqM33BusBnAfQoFtJsnhfF%2F9P%2FD7YyPh4SR8eTcyx1SBYHKY%2F%2B0Bj%2FteM8kcGjzAOi4USFdtwcA8QZIylCIAoMs%2FtCsRv3fRKm0dm66SVvt6Nzf%2FvhRrtfNMdUx%2BiF2oks0RxgnRji8S9LCQR636rgkMmEXOwB3EyP%2BbfRfvrRjqRTI9f5TZ4ZBwuaQ1%2FbWGfXjmt4sAgAtsCjoKJ1PY3e1L6FOG7uqdZfs1B7NxLFQ%2FibCsQ7gza9vzKbjAmy5y2Pia76He7BIzqDc%3D&et=video&p=0.187143&el=firstQuartile]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[http://smaato.dca.events.bidstalk.com/event?raw=crYEL%2FAZfUP3imHnvJSmI1e%2FAzt%2BT6jfOBlg%2BP3hrYiIoDcIMtyhYTNekNNaMrR8bEE3oVc52JL44iU1cR9pXT6YjFPvd3UEkkqUn32ODaldzw5G%2BHEiPvyI%2BuF1c0rDU2T8nS7l270jB0ujdvOHo5XtNLkZgLAlJ%2Fh3JPNme9hembS%2FsO9%2BEHfF6e%2FSp55FeKZ2jAVXtgvbUrcmjjy7OfhHQ2PKK%2Bz0j6TdaLy1eSKDw3xJHAA9EBWK3XNGbtfJz7OJj86u8N03UB1q6ovz1B4WOL%2B0fLlHNWnwKsi2wbeF5k%2BrZvORehfipLBRb6Z4zGugg3qBOG3zMgfsbLTk3JT0q4kLLqM33BusBnAfQoFtJsnhfF%2F9P%2FD7YyPh4SR8eTcyx1SBYHKY%2F%2B0Bj%2FteM8kcGjzAOi4USFdtwcA8QZIylCIAoMs%2FtCsRv3fRKm0dm66SVvt6Nzf%2FvhRrtfNMdUx%2BiF2oks0RxgnRji8S9LCQR636rgkMmEXOwB3EyP%2BbfRfvrRjqRTI9f5TZ4ZBwuaQ1%2FbWGfXjmt4sAgAtsCjoKJ1PY3e1L6FOG7uqdZfs1B7NxLFQ%2FibCsQ7gza9vzKbjAmy5y2Pia76He7BIzqDc%3D&et=video&p=0.187143&el=midpoint]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[http://smaato.dca.events.bidstalk.com/event?raw=crYEL%2FAZfUP3imHnvJSmI1e%2FAzt%2BT6jfOBlg%2BP3hrYiIoDcIMtyhYTNekNNaMrR8bEE3oVc52JL44iU1cR9pXT6YjFPvd3UEkkqUn32ODaldzw5G%2BHEiPvyI%2BuF1c0rDU2T8nS7l270jB0ujdvOHo5XtNLkZgLAlJ%2Fh3JPNme9hembS%2FsO9%2BEHfF6e%2FSp55FeKZ2jAVXtgvbUrcmjjy7OfhHQ2PKK%2Bz0j6TdaLy1eSKDw3xJHAA9EBWK3XNGbtfJz7OJj86u8N03UB1q6ovz1B4WOL%2B0fLlHNWnwKsi2wbeF5k%2BrZvORehfipLBRb6Z4zGugg3qBOG3zMgfsbLTk3JT0q4kLLqM33BusBnAfQoFtJsnhfF%2F9P%2FD7YyPh4SR8eTcyx1SBYHKY%2F%2B0Bj%2FteM8kcGjzAOi4USFdtwcA8QZIylCIAoMs%2FtCsRv3fRKm0dm66SVvt6Nzf%2FvhRrtfNMdUx%2BiF2oks0RxgnRji8S9LCQR636rgkMmEXOwB3EyP%2BbfRfvrRjqRTI9f5TZ4ZBwuaQ1%2FbWGfXjmt4sAgAtsCjoKJ1PY3e1L6FOG7uqdZfs1B7NxLFQ%2FibCsQ7gza9vzKbjAmy5y2Pia76He7BIzqDc%3D&et=video&p=0.187143&el=thirdQuartile]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[http://smaato.dca.events.bidstalk.com/event?raw=crYEL%2FAZfUP3imHnvJSmI1e%2FAzt%2BT6jfOBlg%2BP3hrYiIoDcIMtyhYTNekNNaMrR8bEE3oVc52JL44iU1cR9pXT6YjFPvd3UEkkqUn32ODaldzw5G%2BHEiPvyI%2BuF1c0rDU2T8nS7l270jB0ujdvOHo5XtNLkZgLAlJ%2Fh3JPNme9hembS%2FsO9%2BEHfF6e%2FSp55FeKZ2jAVXtgvbUrcmjjy7OfhHQ2PKK%2Bz0j6TdaLy1eSKDw3xJHAA9EBWK3XNGbtfJz7OJj86u8N03UB1q6ovz1B4WOL%2B0fLlHNWnwKsi2wbeF5k%2BrZvORehfipLBRb6Z4zGugg3qBOG3zMgfsbLTk3JT0q4kLLqM33BusBnAfQoFtJsnhfF%2F9P%2FD7YyPh4SR8eTcyx1SBYHKY%2F%2B0Bj%2FteM8kcGjzAOi4USFdtwcA8QZIylCIAoMs%2FtCsRv3fRKm0dm66SVvt6Nzf%2FvhRrtfNMdUx%2BiF2oks0RxgnRji8S9LCQR636rgkMmEXOwB3EyP%2BbfRfvrRjqRTI9f5TZ4ZBwuaQ1%2FbWGfXjmt4sAgAtsCjoKJ1PY3e1L6FOG7uqdZfs1B7NxLFQ%2FibCsQ7gza9vzKbjAmy5y2Pia76He7BIzqDc%3D&et=video&p=0.187143&el=complete]]>
+                            </Tracking>
+                            <Tracking event="resume">
+                                <![CDATA[http://smaato.dca.events.bidstalk.com/event?raw=crYEL%2FAZfUP3imHnvJSmI1e%2FAzt%2BT6jfOBlg%2BP3hrYiIoDcIMtyhYTNekNNaMrR8bEE3oVc52JL44iU1cR9pXT6YjFPvd3UEkkqUn32ODaldzw5G%2BHEiPvyI%2BuF1c0rDU2T8nS7l270jB0ujdvOHo5XtNLkZgLAlJ%2Fh3JPNme9hembS%2FsO9%2BEHfF6e%2FSp55FeKZ2jAVXtgvbUrcmjjy7OfhHQ2PKK%2Bz0j6TdaLy1eSKDw3xJHAA9EBWK3XNGbtfJz7OJj86u8N03UB1q6ovz1B4WOL%2B0fLlHNWnwKsi2wbeF5k%2BrZvORehfipLBRb6Z4zGugg3qBOG3zMgfsbLTk3JT0q4kLLqM33BusBnAfQoFtJsnhfF%2F9P%2FD7YyPh4SR8eTcyx1SBYHKY%2F%2B0Bj%2FteM8kcGjzAOi4USFdtwcA8QZIylCIAoMs%2FtCsRv3fRKm0dm66SVvt6Nzf%2FvhRrtfNMdUx%2BiF2oks0RxgnRji8S9LCQR636rgkMmEXOwB3EyP%2BbfRfvrRjqRTI9f5TZ4ZBwuaQ1%2FbWGfXjmt4sAgAtsCjoKJ1PY3e1L6FOG7uqdZfs1B7NxLFQ%2FibCsQ7gza9vzKbjAmy5y2Pia76He7BIzqDc%3D&et=video&p=0.187143&el=resume]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking>
+                                <![CDATA[http://smaato.dca.events.bidstalk.com/click?raw=crYEL%2FAZfUP3imHnvJSmI1e%2FAzt%2BT6jfOBlg%2BP3hrYiIoDcIMtyhYTNekNNaMrR8bEE3oVc52JL44iU1cR9pXT6YjFPvd3UEkkqUn32ODaldzw5G%2BHEiPvyI%2BuF1c0rDU2T8nS7l270jB0ujdvOHo5XtNLkZgLAlJ%2Fh3JPNme9hembS%2FsO9%2BEHfF6e%2FSp55FeKZ2jAVXtgvbUrcmjjy7OfhHQ2PKK%2Bz0j6TdaLy1eSKDw3xJHAA9EBWK3XNGbtfJz7OJj86u8N03UB1q6ovz1B4WOL%2B0fLlHNWnwKsi2wbeF5k%2BrZvORehfipLBRb6Z4zGugg3qBOG3zMgfsbLTk3JT0q4kLLqM33BusBnAfQoFtJsnhfF%2F9P%2FD7YyPh4SR8eTcyx1SBYHKY%2F%2B0Bj%2FteM8kcGjzAOi4USFdtwcA8QZIylCIAoMs%2FtCsRv3fRKm0dm66SVvt6Nzf%2FvhRrtfNMdUx%2BiF2oks0RxgnRji8S9LCQR636rgkMmEXOwB3EyP%2BbfRfvrRjqRTI9f5TZ4ZBwuaQ1%2FbWGfXjmt4sAgAtsCjoKJ1PY3e1L6FOG7uqdZfs1B7NxLFQ%2FibCsQ7gza9vzKbjAmy5y2Pia76He7BIzqDc%3D]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </Wrapper>
+    </Ad>
+</VAST>

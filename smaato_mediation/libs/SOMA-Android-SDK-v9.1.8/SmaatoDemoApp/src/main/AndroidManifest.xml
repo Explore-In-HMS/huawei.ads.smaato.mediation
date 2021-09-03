@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2021. Explore in HMS. All rights reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ ou may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smaato.demoapp" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <!-- Android Normal Permissions below granted -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Android Dangerous Permissions onRunTime for API>22 -->
+    <!-- CONTACTS -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- External Storage for e.g RichMedia pics download-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- android:hardwareAccelerated="true" -->
+    <!-- CALENDAR -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature android:name="android.hardware.location.network" />
+    <!--    <instrumentation android:targetPackage="com.smaato.demoapp"
+            android:name="android.test.InstrumentationTestRunner" />-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_smaato"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1622371562305696~6850198567"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name=".MenuListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--  <activity
+              android:name=".activities.TextBannerSample"
+              android:label="@string/title_activity_text_banner_sample" >
+          </activity>-->
+        <activity
+            android:name=".activities.PhoneBannerSample"
+            android:label="@string/title_activity_phone_banner_sample" >
+        </activity>
+        <activity
+            android:name=".activities.MediumRectangle"
+            android:label="@string/title_activity_medium_rectangle" >
+        </activity>
+        <!-- <activity
+             android:name=".activities.RichMediaSample"
+             android:label="@string/title_activity_rich_media_sample" >
+         </activity>-->
+        <activity
+            android:name=".activities.InterstitialBannerSample"
+            android:label="@string/title_activity_interstitial_banner_sample" android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        <activity
+            android:name=".activities.ToasterBannerSample"
+            android:label="@string/title_activity_toaster_banner_sample" >
+        </activity>
+        <activity
+            android:name=".activities.BannerFromXmlSample"
+            android:label="@string/title_activity_banner_from_xml_sample" >
+        </activity>
+
+
+        <activity
+            android:name=".activities.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".activities.VASTBannerSample"
+            android:label="@string/title_activity_vastbanner_sample" >
+        </activity>
+        <activity android:name=".activities.RewardedVideoSample"
+            android:label="@string/title_activity_rewardedvideo_sample" android:configChanges="keyboardHidden|orientation|screenSize">
+
+        </activity>
+        <activity
+            android:name=".activities.NativeAdSample"
+            android:label="@string/title_activity_native_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.SkySample"
+            android:label="@string/title_activity_sky_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.LeaderSample"
+            android:label="@string/title_activity_leaderboard_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.NativeAdAppWallSample"
+            android:label="@string/title_activity_native_app_wall_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.NativeAdContentWallSample"
+            android:label="@string/title_activity_native_content_wall_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.NativeAdNewsFeedSample"
+            android:label="@string/title_activity_native_news_feed_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.NativeAdChatListSample"
+            android:label="@string/title_activity_native_chat_list_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.NativeAdCarouselSample"
+            android:label="@string/title_activity_native_carousel_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.NativeAdContentStreamSample"
+            android:label="@string/title_activity_native_content_stream_ad_sample" >
+        </activity>
+
+        <!--   ***Mediation Activity Starts***  -->
+
+        <activity
+            android:name=".activities.AppPhoneBannerSample"
+            android:label="@string/title_activity_phone_banner_sample" >
+        </activity>
+        <activity
+            android:name=".activities.AppMediumRectangle"
+            android:label="@string/title_activity_medium_rectangle" >
+        </activity>
+        <!-- <activity
+             android:name=".activities.RichMediaSample"
+             android:label="@string/title_activity_rich_media_sample" >
+         </activity>-->
+        <activity
+            android:name=".activities.AppInterstitialBannerSample"
+            android:label="@string/title_activity_interstitial_banner_sample" >
+        </activity>
+        <activity
+            android:name=".activities.AppToasterBannerSample"
+            android:label="@string/title_activity_toaster_banner_sample" >
+        </activity>
+        <activity
+            android:name=".activities.AppBannerFromXmlSample"
+            android:label="@string/title_activity_banner_from_xml_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.AppVASTBannerSample"
+            android:label="@string/title_activity_vastbanner_sample" >
+        </activity>
+        <activity
+            android:name=".activities.AppNativeAdSample"
+            android:label="@string/title_activity_native_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.AppSkySample"
+            android:label="@string/title_activity_sky_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.AppLeaderSample"
+            android:label="@string/title_activity_leaderboard_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.AppNativeAdAppWallSample"
+            android:label="@string/title_activity_native_app_wall_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.AppNativeAdContentWallSample"
+            android:label="@string/title_activity_native_content_wall_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.AppNativeAdNewsFeedSample"
+            android:label="@string/title_activity_native_news_feed_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.AppNativeAdChatListSample"
+            android:label="@string/title_activity_native_chat_list_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.AppNativeAdCarouselSample"
+            android:label="@string/title_activity_native_carousel_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.AppNativeAdContentStreamSample"
+            android:label="@string/title_activity_native_content_stream_ad_sample" >
+        </activity>
+
+        <activity
+            android:name=".activities.ProgrammaticPhoneBannerSample"
+            android:label="@string/title_activity_programmatic_phone_banner_sample" >
+        </activity>
+
+
+
+        <!--  Smaato SDK Acitivites with API 24 android:configChanges="orientation|screenSize"    -->
+
+        <activity android:name="com.smaato.soma.interstitial.InterstitialActivity"
+            android:resizeableActivity="false" android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        <activity android:name="com.smaato.soma.video.VASTAdActivity"
+            android:resizeableActivity="false" android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+        <activity android:name="com.smaato.soma.ExpandedBannerActivity"
+            android:resizeableActivity="false" android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+
+<!--        <activity android:name="com.smaato.soma.interstitial.BaseActivity" >
+        </activity>-->
+
+        <!--  Smaato SDK Acitivites with API < 24 -->
+
+<!--        <activity android:name="com.smaato.soma.interstitial.InterstitialActivity">
+        </activity>
+        <activity android:name="com.smaato.soma.video.VASTAdActivity">
+        </activity>
+        <activity android:name="com.smaato.soma.ExpandedBannerActivity">
+        </activity>-->
+
+
+
+        <!--  MM Mediation Activity dependency -->
+
+        <!--  AdMob Mediation Activity  -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+
+        <!--Mopub  -->
+
+        <!--Facebook AudienceNetwork  -->
+        <activity android:name="com.facebook.ads.InterstitialAdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <!-- Apps targeting api v13 and higher should add '|screenSize' to the InterstitialAdActivity configChanges to support video rotation -->
+        <!--Facebook AudienceNetwork  NativeAd-->
+        <activity android:name="com.facebook.ads.NativeAdVideoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <!--  Mediation Activity Ends -->
+
+
+    </application>
+
+</manifest>
