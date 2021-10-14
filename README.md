@@ -74,15 +74,22 @@ dependencies {
 }
 ```
 
-1. Generate a keystore file
-
-2. Place the keystore file in the app directory
-
-3. Modify the app module build.gradle file - update the signingConfigs to your keystore's setting
-
-4. Build the project or run the app in your device / emulator
-
 **Important:** _To add Huawei Ads Kit SDK and Mediation adapter, the native project should be opened with Android Studio._
+
+## **Permissions**
+The HUAWEI Ads SDK (com.huawei.hms:ads) has integrated the required permissions. Therefore, you do not need to apply for these permissions. <br />
+
+**android.permission.ACCESS_NETWORK_STATE:** Checks whether the current network is available.   <br/>
+
+**android.permission.ACCESS_WIFI_STATE:** Obtains the current Wi-Fi connection status and the information about WLAN hotspots. <br />
+
+**android.permission.BLUETOOTH:** Obtains the statuses of paired Bluetooth devices. (The permission can be removed if not necessary.) <br />
+
+**android.permission.CAMERA:** Displays AR ads in the Camera app. (The permission can be removed if not necessary.) <br />
+
+**android.permission.READ_CALENDAR:** Reads calendar events and their subscription statuses. (The permission can be removed if not necessary.) <br />
+
+**android.permission.WRITE_CALENDAR:** Creates a calendar event when a user clicks the subscription button in an ad. (The permission can be removed if not necessary.) <br />
 
 # Platforms
 
