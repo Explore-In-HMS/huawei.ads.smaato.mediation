@@ -71,8 +71,12 @@ First, download the "smaato_mediation-release.aar" file in the project. Then in 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation project(":smaato_mediation-release")
+    implementation 'com.huawei.hms:ads:3.4.49.301'
+
 }
 ```
+[Check the latest Huawei Ads SDK here](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/publisher-service-version-change-history-0000001050066909)
+
 
 **Important:** _To add Huawei Ads Kit SDK and Mediation adapter, the native project should be opened with Android Studio._
 
