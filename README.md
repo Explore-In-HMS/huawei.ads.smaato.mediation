@@ -1,4 +1,8 @@
  <h1 align="center">Huawei-Smaato Mediation Github Documentation</h3>
+ 
+ ![Latest Version](https://img.shields.io/badge/latestVersion-1.0.0-yellow) ![Kotlin](https://img.shields.io/badge/language-kotlin-blue)
+<br>
+![Supported Platforms](https://img.shields.io/badge/Supported_Platforms:-Native_Android-orange)
 
 # Introduction
 
