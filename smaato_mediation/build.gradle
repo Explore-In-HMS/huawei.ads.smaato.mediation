@@ -60,10 +60,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-
     implementation (name:'SOMAAndroid-9.1.8-release', ext:'aar') {
         transitive(true)
     }
 
-    implementation 'com.huawei.hms:ads-lite:13.4.41.302'
+    compileOnly 'com.huawei.hms:ads:3.4.54.300'
 }
