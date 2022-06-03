@@ -1,6 +1,6 @@
  <h1 align="center">Huawei-Smaato Mediation Github Documentation</h3>
  
- ![Latest Version](https://img.shields.io/badge/latestVersion-1.0.0-yellow) ![Kotlin](https://img.shields.io/badge/language-kotlin-blue)
+ ![Latest Version](https://img.shields.io/badge/latestVersion-1.0.1-yellow) ![Kotlin](https://img.shields.io/badge/language-kotlin-blue)
 <br>
 ![Supported Platforms](https://img.shields.io/badge/Supported_Platforms:-Native_Android-orange)
 
@@ -69,17 +69,36 @@ allprojects {
 }
 ```
 
-First, download the "smaato_mediation-release.aar" file in the project. Then in Android Studio, after saying File->New->New Module, select Import AAR&JAR. Then select the downloaded aar file
+First, download the "smaato_mediation-v1.0.1.aar" file in the project. Then in Android Studio, after saying File->New->New Module, select Import AAR&JAR. Then select the downloaded aar file
+
+**Note** : Older versions could be found under the "_releases" folder
 
 ```groovy
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation project(":smaato_mediation-release")
-    implementation 'com.huawei.hms:ads:3.4.49.301'
-
+    //Adapter SDK
+    implementation project(":smaato_mediation-v1.0.1")
+    //Huawei Ads Prime
+    implementation 'com.huawei.hms:ads-prime:<latest_version>'
 }
 ```
-[Check the latest Huawei Ads SDK here](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/publisher-service-version-change-history-0000001050066909)
+
+> **_NOTE:_**  If your app can run only on Huawei mobile phones, you can integrate the Huawei Ads Lite SDK instead of Huawei Ads SDK (Optional)
+```groovy
+dependencies {
+    ...
+    //Huawei Ads Lite
+    implementation 'com.huawei.hms:ads-lite:<latest_version>'
+    ...
+}
+```
+
+<h3>Latest version of SDKs</h3>
+<ul>
+  <li><a href="https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/publisher-service-version-change-history-0000001050066909">Check the Huawei Ads SDKs here</a></li>
+  <li><a href="#version-change-history">Check the version of adapter here</a></li>
+</ul>
+
 
 
 **Important:** _To add Huawei Ads Kit SDK and Mediation adapter, the native project should be opened with Android Studio._
@@ -98,6 +117,15 @@ The HUAWEI Ads SDK (com.huawei.hms:ads) has integrated the required permissions.
 **android.permission.READ_CALENDAR:** Reads calendar events and their subscription statuses. (The permission can be removed if not necessary.) <br />
 
 **android.permission.WRITE_CALENDAR:** Creates a calendar event when a user clicks the subscription button in an ad. (The permission can be removed if not necessary.) <br />
+
+# Version Change History
+
+# 1.0.1
+
+<ul>
+  <li>Integration methods of Huawei Ads SDK in the plugin have been changed to <a href="https://docs.gradle.org/2.12/release-notes.html#support-for-declaring-compile-time-only-dependencies-with-java-plugin"><i>compileOnly</i></a>.</li>
+  <li>Huawei Ads SDK (lite or prime) has to be added externally to the app anymore.</li>
+</ul>
 
 # Platforms
 
